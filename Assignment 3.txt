@@ -1,0 +1,37 @@
+Assignment 3😀
+
+1. What are the primitive data types in C Language?
+2. What kind of statements can be written outside the function body?
+3. What is the size of float type variable?
+4. What is the value of an uninitialised variable?
+5. What is the difference between float and double?
+6. What is the full form of ASCII?
+7. What is the difference between a keyword and a function?
+8. Explore the use of type modifiers in C language.
+9. Can you assign a character constant in an int variable?
+10. State the following statement as true or false -”Every block of code is a function”.
+
+Solutions of the assignment questions :-
+Ans.1 :- Primitive data types are primary data types which can store data of only one type.
+	   In C language, there are 5 primitive data types that are as follows :-
+		A. int
+		B. char
+		C. float
+		D. Double
+		E. void
+Ans.2 :- Type declaration statements can be written outside the function body such as Global variables.
+Ans.3 :- It is 4 bytes according to the gcc compilor.
+Ans.4 :- Garbage value.
+Ans.5 :- float takes 4 bytes in the memory while double takes 8 bytes in the memory according to the gcc compilor. Precision of numbers in double is more than in float as more number
+	   of bits are used for storing the constant.
+Ans.6 :- ASCII -> American Standard Code for Information Interchange.
+Ans.7 :- Keywords are the words whose meaning is already being known to the compilor whereas a function is not known to the compilor; it is either created by the user or comes from the
+	   library of functions that is stored at some place in the memory.
+Ans.8 :- Modifiers are keywords in C which changes the meaning of basic data type in c. It specifies the amount of memory space to be allocated for a variable. Modifiers are prefixed 
+         with basic data types to modify the memory allocated for a variable.
+	   For Example :- Type modifiers signed, unsigned, long, and short are prefixed and used with integer base data types. Whereas signed and unsigned are used for char, long can 
+	     	 		also be used for double base data types.
+Ans.9 :- Yes, we can assign a character constant in an int variable because the ASCII value of the character will be stored in the int variable, since all the characters are ASCII value
+	   equivalents.
+Ans.10 :- False, because not every block of code is a function since there may be several different blocks in the program. We can put any number of statements in the program in a block
+	    but that does not means that it will be a function.
